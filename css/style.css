@@ -25,11 +25,6 @@ body{
   border: 0px;
 }
 
-.waves{
-  height: 52px;
-  background-image: url(/img/wave.svg);
-}
-
 header{
   display: flex;
   align-items: center;
@@ -67,7 +62,7 @@ header .button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/img/jumbo.png");
+  background-image: url("../img/jumbo.png");
   background-size: cover;
   height: 500px;
 }
@@ -172,7 +167,7 @@ section .container .big-image,img{
 }
 
 section .container .stars-bg{
-  background-image: url(/img/stars.svg);
+  background-image: url(../img/stars.svg);
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
