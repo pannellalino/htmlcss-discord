@@ -25,6 +25,11 @@ body{
   border: 0px;
 }
 
+.waves{
+  height: 52px;
+  background-image: url(/img/wave.svg);
+}
+
 header{
   display: flex;
   align-items: center;
