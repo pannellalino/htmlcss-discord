@@ -97,12 +97,12 @@ header .button:hover{
   border: 1px solid white;
 }
 
-.jumbotron .content .button .fa-solid{
+.fa-solid{
   padding: 0 10px 0 0;
 }
 
 section.grey-bg{
-  background-color: grey;
+  background-color: #F4F4F4;
 }
 
 section .container{
@@ -151,6 +151,36 @@ section.section-bottom .container{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+section .container .box-text{
+  text-align: center;
+  padding: 100px 50px 0 50px;
+}
+
+section .container .box-text p{
+  padding: 0;
+}
+
+section .container .big-image,img{
+  width: 100%;
+}
+
+section .container .stars-bg{
+  background-image: url(/img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 30px;
+}
+
+h4{
+  padding-bottom: 30px;
+}
+
+section .container .stars-bg .button{
+  background-color: #7C8DDA;
+  color: white;
 }
 
 footer{
