@@ -64,7 +64,7 @@ header .button:hover{
   align-items: center;
   background-image: url("/img/jumbo.png");
   background-size: cover;
-  height: 550px;
+  height: 500px;
 }
 
 .jumbotron .content{
@@ -108,19 +108,43 @@ section.grey-bg{
 section .container{
   display: flex;
   min-height: 500px;
-  background-color: bisque;
 }
 
 section .container .image{
+  display: flex;
   width: 60%;
   min-height: 400px;
-  background-color: azure;
 }
 
-section .container .text{
+section .container .image .items{
+  width: 80%;
+  min-width: 450px;
+}
+
+section .container .text-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40%;
   min-height: 300px;
-  background-color:blueviolet;
+  width: 200px;
+  line-height: 1.2;
+}
+
+section .container .text-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  min-height: 300px;
+  line-height: 1.2;
+  padding-left: 150px;
+  padding-right: 50px;
+}
+
+h2{
+  margin-bottom: 15px;
 }
 
 section.section-bottom .container{
