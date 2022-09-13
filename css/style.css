@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 90%;
+  width: 80%;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -19,30 +19,86 @@ body{
   border: 1px solid black;
 }
 
+.button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0px;
+}
+
 header{
   display: flex;
   align-items: center;
-  background-color: aqua;
+  background-color: #265EE8;
   height: 80px;
 }
 
 header .container{
   display: flex;
   justify-content: space-between;
-  
+  align-items: center; 
+}
+
+header ul{
+  display: flex;
+}
+
+header ul li{
+  list-style: none;
+  color: white;
+  padding: 20px;
+}
+
+header ul li:hover{
+  text-decoration: underline;
+}
+
+header .button:hover{
+  color: white;
+  background-color: #265EE8;
+  border: 1px solid white;
 }
 
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background-image: url("/img/jumbo.png");
+  background-size: cover;
   height: 550px;
 }
 
 .jumbotron .content{
-  max-width: 800px;
-  background-color: #ffffff;
+  max-width: 45%;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron .content h1, p{
+  padding-bottom: 30px;
+}
+
+.jumbotron .content p{
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.jumbotron .content .button{
+  margin: 0 20px;
+}
+
+.jumbotron .content .jumbo-right{
+  background-color: #1A1D20;
+  color: white;
+}
+
+.jumbotron .button:hover{
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.jumbotron .content .button .fa-solid{
+  padding: 0 10px 0 0;
 }
 
 section.grey-bg{
