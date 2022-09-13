@@ -181,6 +181,13 @@ h4{
 section .container .stars-bg .button{
   background-color: #7C8DDA;
   color: white;
+  margin-bottom: 50px;
+}
+
+section .stars-bg .button:hover{
+  color: #7C8DDA;
+  background-color: transparent;
+  border: 1px solid #7C8DDA;
 }
 
 footer{
