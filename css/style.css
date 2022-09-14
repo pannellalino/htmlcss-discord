@@ -128,19 +128,19 @@ section .container .text-right{
   align-items: center;
   width: 40%;
   min-height: 300px;
-  width: 200px;
+  /*width: 200px;*/
   line-height: 1.2;
+  padding-right: 200px;
 }
 
 section .container .text-left{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  /*width: 40%;*/
   min-height: 300px;
   line-height: 1.2;
-  padding-left: 150px;
-  padding-right: 50px;
+  padding: 0 150px;
 }
 
 h2{
